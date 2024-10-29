@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 import { HeroItemProps } from "../../types/hero.interface";
-import { clearSelectedHero } from "../../features/allHeroesSlice/allHeroesSlice";
+import { clearSelectedHero } from "../../features/allHeroesSlice/allHeroSlice";
 import { AppDispatch } from "../../features/store";
 
 
