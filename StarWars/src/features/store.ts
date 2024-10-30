@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 
 import heroesReducer from './allHeroesSlice/allHeroSlice';
+import heroDetailsReducer from './heroDetailsSlice/heroDetailsSlice';
 import { searchHeroSlice } from './searchHeroSlice/searchHeroSlice';
 
 /**
@@ -12,15 +13,15 @@ import { searchHeroSlice } from './searchHeroSlice/searchHeroSlice';
 * @property {function} searchHeroSlice - This reducer is responsible for managing the state associated with searching for heroes.
 * @property {function} middleware - This function is used to apply middleware to the Redux store.
 */
-
 const store = configureStore({
     reducer: {
         allHeroes: heroesReducer,
+        heroDetails: heroDetailsReducer,
         [searchHeroSlice.reducerPath]: searchHeroSlice.reducer,
     },
-      middleware: (getDefaultMiddleware) => getDefaultMiddleware()
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware()
         .concat(searchHeroSlice.middleware),
-})
+});
 
 /**
  * A utility type that represents the overall shape of the Redux state.
