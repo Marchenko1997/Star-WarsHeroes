@@ -32,8 +32,9 @@ const HeroList: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
   const [currentPage, setCurrentPage] = useState<number>(1);
 
-  const { heroes, loading, error, next, previous } = useSelector(
-    (state: RootHeroesState) => state.allHeroes
+  // Добавляем защиту от undefined при деструктуризации
+  const { heroes = [], loading, error, next, previous } = useSelector(
+    (state: RootHeroesState) => state.allHeroes || {}
   );
 
   /**

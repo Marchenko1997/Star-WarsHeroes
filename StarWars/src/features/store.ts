@@ -15,7 +15,7 @@ import { searchHeroSlice } from './searchHeroSlice/searchHeroSlice';
 
 const store = configureStore({
     reducer: {
-        allheroes: heroesReducer,
+        allHeroes: heroesReducer,
         [searchHeroSlice.reducerPath]: searchHeroSlice.reducer,
     },
       middleware: (getDefaultMiddleware) => getDefaultMiddleware()
