@@ -1,6 +1,5 @@
 {
   "name": "star-wars",
-  "homepage": "https://reyand8.github.io/StarWars/",
   "proxy": "https://sw-api.starnavi.io",
   "version": "0.1.0",
   "private": true,
