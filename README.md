@@ -28,7 +28,7 @@ This project leverages modern web technologies to deliver a robust and responsiv
 **Usage:**
 
 * Client
-    - Navigate to the project directory: cd star-wars
+    - Navigate to the project directory: cd StarWars
     - Install dependencies: yarn install
         - Run the project: yarn start
         - Open a browser and navigate to: http://localhost:3000
