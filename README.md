@@ -18,15 +18,12 @@ This project leverages modern web technologies to deliver a robust and responsiv
 - ✅ **Material UI (MUI)** for a polished and responsive design system.
 - ✅ **Jest** for unit testing and ensuring code quality.
 
-## 📦 Installation and Usage
+## Installation and Usage
 
-Follow the steps below to install and run the StarWars Hero Explorer on your local machine:
 
-### 1. Clone the Repository
-Clone the project from GitHub to your local machine:
-```bash
-git clone https://github.com/Marchenko1997/practic
+**Installation:**
 
+* Clone the repository: git clone https://github.com/Marchenko1997/Star-WarsHeroes
 
 **Usage:**
 
@@ -51,3 +48,4 @@ ___________________________
 ___________________________
 
 ![3.png](readmeScr/3.png)
+
